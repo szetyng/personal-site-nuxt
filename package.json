@@ -1,0 +1,27 @@
+{
+  "name": "szetyng",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "generate": "nuxt build && nuxt export",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build && nuxt export",
+    "deploy": "push-dir --dir=dist --branch=master --cleanup"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.3.2",
+    "@nuxtjs/axios": "^5.11.0",
+    "nuxt": "^2.13.0",
+    "prism-themes": "^1.7.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-vue": "^7.11.1"
+  }
+}
