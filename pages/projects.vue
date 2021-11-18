@@ -130,6 +130,25 @@ export default {
 		return {
 			projects: [
 				{
+					title: 'Wizarding World Metaverse Slayer',
+					description: '\
+					Simple turn-based NFT game built using Solidity. Each player\
+					mints a Wizarding World character NFT that they can use to attack the Big Boss, Tom Riddle. The logic of the game is stored in a \
+					smart contract that has been deployed on the Ethereum blockchain (on the Rinkeby test network), whereas the UI of the game is a\
+					React.js web app written and hosted on <a href=\'https://replit.com/~\' target=\'_blank\'>replit</a>.  \
+					',
+					url: 'https://github.com/szetyng/NFT-magical-game',
+					links: [
+						{
+							url: 'https://nft-game-starter-project.szetyngtyng.repl.co/',
+							color: 'grey darken-2',
+							title: 'Website'
+						}
+					],
+					imgSrc: 'metaverse-slayer.png',
+					expand: false
+				},
+				{
 					title: 'Guardrails',
 					description: '\
 					Designed and built a multi-agent system simulator in F# to investigate the effects of having minimal \
