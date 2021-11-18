@@ -185,6 +185,7 @@ export default {
 				{name: 'nuxtjs'},
 				{name: 'postgresql', link: 'devicon-postgresql-plain-wordmark'},
 				{name: 'python'},
+				{name: 'solidity'},
 				{name: 'vuejs', link: 'devicon-vuejs-plain-wordmark'},
 				
 			],
@@ -225,6 +226,10 @@ export default {
 
 .icon-fastapi {
 	background: no-repeat center/100% url("../assets/images/skills-icons/fastapi.png")
+}
+
+.icon-solidity {
+	background: no-repeat center/100% url("../assets/images/skills-icons/solidity.png")
 }
 
 .icons-container {
