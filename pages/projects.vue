@@ -83,6 +83,7 @@
 
 										<v-card-title
 											class="project-title text-h5 font-weight-light"
+											style="word-break:break-word"
 											@click="displayProjectInfo(project)"
 										>
 											{{ project.title }}
