@@ -130,6 +130,29 @@ export default {
 	data() {
 		return {
 			projects: [
+			{
+					title: 'Spotify Unwrapped',
+					description: '\
+					A Data Studio dashboard that aims to recreate Spotify Wrapped, and includes additional custom in-depth \
+					analytics to it. Github link points to a simple Gist of the Python script used to help prepare the\
+					data for Data Studio.\
+					',
+					url: 'https://gist.github.com/szetyng/fedbb9008e8b607e4e4ad958b6ab657b',
+					links: [
+						{
+							url: 'https://lookerstudio.google.com/s/qlBNQmUEpHc',
+							color: 'grey darken-2',
+							title: 'Dashboard'
+						},
+						{
+							url: 'https://www.szetyng.com/blog/spotify-unwrapped',
+							color: 'grey darken-2',
+							title: 'Website'
+						}
+					],
+					imgSrc: 'spotify-page.png',
+					expand: false
+				},
 				{
 					title: 'Wizarding World Metaverse Slayer',
 					description: '\
@@ -306,6 +329,8 @@ export default {
 				return 'mdi-video';
 			} else if (title === 'Slides') {
 				return 'mdi-play-box-outline';
+			} else if (title == 'Dashboard') {
+				return 'mdi-chart-box-outline'
 			}
 		}
 	}
