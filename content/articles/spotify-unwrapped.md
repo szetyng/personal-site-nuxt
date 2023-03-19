@@ -8,6 +8,7 @@ author:
 	image: szetyng-map.jpg
 img: test.jpg
 alt: test picture
+postedAt: 2023-03-19
 ---
 
 One of my favorite things about the end of the year is the release of Spotify Wrapped. It's fun to discover how much did I actually like Taylor Swift's latest album (a lot) and quantify it with real data. However, you don't really have to wait until the end of the year to get such information.

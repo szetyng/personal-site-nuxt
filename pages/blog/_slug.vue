@@ -4,7 +4,7 @@
 			<v-col cols="12" md="10" lg="8">
 				<OutlinedCard>
 					<template v-slot:title>{{ article.title }}</template>
-					<template v-slot:subtitle>Post published at: {{ article.createdAt | formatDate }}</template>
+					<template v-slot:subtitle>Post published at: {{ article.postedAt | formatDate }}</template>
 					<template v-slot:defaultContent>
 						<nuxt-content :document="article" />
 					</template>

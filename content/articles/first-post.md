@@ -8,6 +8,7 @@ author:
 	image: szetyng-map.jpg
 img: test.jpg
 alt: test picture
+postedAt: 2021-09-30
 ---
 
 Hello there! After years of talking about it, I'm finally adding a blog section to this website. Since I had the foresight to use the Vue.js framework (Nuxt.js) for this, it was only a matter of learning how to use the `@nuxt/content` module properly!
