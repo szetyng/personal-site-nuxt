@@ -145,4 +145,13 @@ export default {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+iframe {
+  width: 100%;
+}
 </style>
